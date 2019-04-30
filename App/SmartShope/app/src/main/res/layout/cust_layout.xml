@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/cust_layout_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/person"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/cust_layout_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/pacifico"
+        android:text="Name"
+        android:textColor="@color/textColour" />
+
+    <TextView
+        android:id="@+id/cust_layout_product_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/pacifico"
+        android:text="Rate"
+        android:textColor="@color/textColour"
+        />
+
+    <TextView
+        android:id="@+id/cust_layout_product_pid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:fontFamily="@font/pacifico"
+        android:text="pid"
+        android:textColor="@color/textColour"
+         />
+
+    <TextView
+        android:id="@+id/cust_layout_product_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/pacifico"
+        android:text="category"
+        android:textColor="@color/textColour"
+         />
+
+    <TextView
+        android:id="@+id/cust_layout_product_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="unit"
+        android:fontFamily="@font/pacifico"
+        android:textColor="@color/textColour"
+         />
+
+    <TextView
+        android:id="@+id/cust_layout_product_rackno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="rackno"
+        android:fontFamily="@font/pacifico"
+        android:textColor="@color/textColour"
+         />
+
+</LinearLayout>

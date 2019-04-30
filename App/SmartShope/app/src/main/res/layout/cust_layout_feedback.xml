@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/feedback_cust_layout_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/feedback" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/feedback_cust_layout_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@color/textColour"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/feedback_cust_layout_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:text="Phone"
+                android:textColor="@color/textColour"
+                />
+
+            <TextView
+                android:id="@+id/feedback_cust_layout_email"
+                android:layout_width="wrap_content"
+                android:autoLink="email"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="@color/textColour" />
+
+            <TextView
+                android:id="@+id/feedback_cust_layout_feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feedback"
+                android:textColor="@color/textColour" />
+
+            <TextView
+                android:id="@+id/feedback_cust_layout_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textColor="@color/textColour"
+                 />
+
+            <RatingBar
+                android:id="@+id/feedback_cust_layout_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/ratingBarStyleSmall"
+                android:textColor="@color/textColour" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
